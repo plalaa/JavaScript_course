@@ -1,5 +1,4 @@
 # JavaScript_course
- 
 
 - 1 db egyenlőség jel ad értéket a változónak
 - változó nevek: számok, betűk, alulvonás, vagy dollár szimbólum
@@ -9,7 +8,7 @@
 - változó lehet: object és primitive data type
 
 - 7 db primitive data type: 
-    - number: integers and decibels
+    - number: integers and decimals
     - strings: szöveg (mindig idézőjelbe kerül, mindegy, hogy '" vagy "")
     - boolean: true, false
     - undefined: nincs meghatározva a típus, "undefined" az értéke
