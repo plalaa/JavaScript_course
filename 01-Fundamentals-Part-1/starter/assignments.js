@@ -1,4 +1,4 @@
-/* const country = 'Denmark';
+const country = 'Denmark';
 const continent = 'Europe';
 let population = 5825052;
 
@@ -32,9 +32,9 @@ console.log(population < avgPopulation);
 
 console.log(country + ' is in ' + continent + ', and its ' + population + ' people speak ' + language);
 
+// Using template literals
+console.log(`${country} is in ${continent}. and its ${population} people speak ${language}`);
 console.log("\n");
-
-*/
 
 // CHALLENGE #1
 

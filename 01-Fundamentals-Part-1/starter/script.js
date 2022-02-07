@@ -99,3 +99,16 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
+
+// TEMPLATE LITERALS
+const firstName = 'Lajos';
+const lastName = 'Péter';
+const job = 'Project Manager';
+const birthYear = 1995;
+const currentYear = 2022;
+const lajos = "I'm " + firstName + ', a ' + (currentYear-birthYear) + ' years old ' + job + '!';
+console.log(lajos);
+
+const lajosNew = `I'm ${firstName}, a ${currentYear-birthYear} years old ${job}!`;
+console.log(lajosNew);
+
