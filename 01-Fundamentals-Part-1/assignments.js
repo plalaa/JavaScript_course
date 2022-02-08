@@ -21,7 +21,7 @@ console.log("\n");
 language = 'Danish';
 
 console.log(population / 2);
-population ++;
+//population ++;
 console.log(population);
 
 const populationFinland = 6000000;
@@ -30,11 +30,18 @@ console.log(population > populationFinland);
 const avgPopulation = 33000000;
 console.log(population < avgPopulation);
 
-console.log(country + ' is in ' + continent + ', and its ' + population + ' people speak ' + language);
+// console.log(country + ' is in ' + continent + ', and its ' + population + ' people speak ' + language);
 
 // Using template literals
 console.log(`${country} is in ${continent}. and its ${population} people speak ${language}`);
 console.log("\n");
+
+if (population > avgPopulation) {
+    console.log(`${country}'s population is above average.`)
+} else {
+    const populationDiff = avgPopulation - population;
+    console.log(`${country}'s population is ${populationDiff} below average`);
+}
 
 // CHALLENGE #1
 
@@ -55,3 +62,11 @@ console.log(bmiMark, bmiJohn);
 // displaying if Mark has a higher BMI
 const markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
+
+// CHALLENGE #2
+
+if (markHigherBMI) {
+    console.log(`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn})!`);
+} else {
+    console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
+}
