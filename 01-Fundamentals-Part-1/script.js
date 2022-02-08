@@ -110,7 +110,6 @@ console.log(lajos);
 
 const lajosNew = `I'm ${firstName}, a ${currentYear-birthYear} years old ${job}!`;
 console.log(lajosNew);
-*/
 
 // Control structure
 const age = 15;
@@ -130,3 +129,64 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+//Type conversion
+const inputYear = '1995';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//Type coercion
+console.log('I am ' + 26 + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' / '2');
+
+
+//Falsy values:
+//0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Lajos'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all!");
+} else {
+    console.log('You should get a job!');
+}
+
+let height = 0;
+if (height) {
+    console.log('Yay! Height is defined');
+} else {
+    console.log('Height is undefined')
+}
+
+// strict equality operator
+const age = 18;
+if (age === 18) console.log('You just became an adult! (strict)');
+
+// loose equality operator
+if (age == 18) console.log('You just became an adult! (loose)');
+
+const favourite = Number(prompt("What is your favourite number?"));
+console.log(Number(favourite));
+
+if (favourite === 23) {
+    console.log('23 is an amazing number');
+} else if (favourite === 7) {
+    console.log('7 is also a cool number!');
+} else {
+    console.log('Number is not 7 or 23');
+}
+
+// different operator
+if (favourite !== 23) {
+    console.log('Why not 23?');
+}
+*/

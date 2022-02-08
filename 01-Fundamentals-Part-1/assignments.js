@@ -1,4 +1,4 @@
-const country = 'Denmark';
+/*const country = 'Denmark';
 const continent = 'Europe';
 let population = 5825052;
 
@@ -6,22 +6,18 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
-console.log("\n");
-
 const isIsland = true;
+
 let language;
-
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
-
-console.log("\n");
-
 language = 'Danish';
+//console.log(typeof isIsland);
+//console.log(typeof population);
+//console.log(typeof country);
+//console.log(typeof language);
 
 console.log(population / 2);
-//population ++;
+population++;
+population--;
 console.log(population);
 
 const populationFinland = 6000000;
@@ -30,7 +26,8 @@ console.log(population > populationFinland);
 const avgPopulation = 33000000;
 console.log(population < avgPopulation);
 
-// console.log(country + ' is in ' + continent + ', and its ' + population + ' people speak ' + language);
+// Using concatenation
+console.log(country + ' is in ' + continent + ', and its ' + population + ' people speak ' + language);
 
 // Using template literals
 console.log(`${country} is in ${continent}. and its ${population} people speak ${language}`);
@@ -70,3 +67,12 @@ if (markHigherBMI) {
 } else {
     console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
 }
+*/
+
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border');
+} else if (numNeighbours > 1) {
+    console.log('More than 1 border');
+} else console.log('No borders');
